@@ -34,6 +34,9 @@ devDependencies:
   eslint:
     specifier: ^8.55.0
     version: 8.56.0
+  eslint-plugin-jquery:
+    specifier: ^1.5.1
+    version: 1.5.1(eslint@8.56.0)
   eslint-plugin-react:
     specifier: ^7.33.2
     version: 7.33.2(eslint@8.56.0)
@@ -1641,6 +1644,14 @@ packages:
   /escape-string-regexp@4.0.0:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
+    dev: true
+
+  /eslint-plugin-jquery@1.5.1(eslint@8.56.0):
+    resolution: {integrity: sha512-L7v1eaK5t80C0lvUXPFP9MKnBOqPSKhCOYyzy4LZ0+iK+TJwN8S9gAkzzP1AOhypRIwA88HF6phQ9C7jnOpW8w==}
+    peerDependencies:
+      eslint: '>=5.4.0'
+    dependencies:
+      eslint: 8.56.0
     dev: true
 
   /eslint-plugin-react-hooks@4.6.0(eslint@8.56.0):
